@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Production</title>
+    
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    /*box-sizing:border-box;*/
+
+}
+.header{
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(1, 53, 17);
+    font-weight:bold;
+    text-align:center;
+    font-size: 30px;
+    padding-top:20px;
+    background-image:linear-gradient(rgba(172, 172, 101, 0.7),rgba(186, 253, 163, 0.4)),url("https://thenationonlineng.net/wp-content/uploads/2015/11/Green-houses.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    width:100vw;
+    background-position: center;
+    
+    max-height:700px;
+
+    
+    
+
+}
+
+
+
+
+.slideshow{
+    padding:0;
+    margin:0;
+
+}
+.container2{
+    margin:100px;
+    margin-left:500px;
+    max-width:400px;
+    margin-right:3px;
+    background-image:url("https://www.foodnavigator.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/foodnavigator.com/article/2023/06/02/ai-the-future-of-food-or-the-end-of-humanity/16462469-1-eng-GB/AI-The-future-of-food-or-the-end-of-humanity.jpg");
+    
+}
+.container1{
+    max-width:400px;
+    margin-top:100px;
+    margin-left:2px;
+    margin-right:200px;
+    background-image:url("https://www.hortidaily.com/remote/https/agfstorage.blob.core.windows.net/misc/HD_com/2023/03/27/berrypeople1.jpg?preset=ContentFullSmall");
+    background-size: cover;
+    
+    background-repeat:no-repeat;
+    
+}
+.wrapper1,.wrapper2{
+    width:100%;
+    height:300px;
+}
+img{
+    width:100%;
+    
+}
+.wrapper1,.wrapper2{
+    display:flex;
+    animation:slide 6s infinite;
+}
+@keyframes slide{
+    0%{
+        transform:translateX(0);
+    }
+    25%{
+        transform:translateX(0);
+    }
+    30%{
+        transform:translateX(-100%);
+    }
+    50%{
+        transform:translateX(-100%);
+    }
+    /*55%{
+        transform:translateX(-200%);
+    }
+    75%{
+        transform:translateX(-200%);
+    }
+    80%{
+        transform:translateX(-300%);
+    }
+    100%{
+        transform:translateX(-300%);
+    }*/
+}
+.container1,.container2{
+    
+    border:solid rgb(219, 240, 219) 20px ;
+}
+.container1,.container2{
+    width:60%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:60%;
+    left:430px;
+    right:100px;
+    display:flex;
+    
+
+    overflow:hidden;
+    }
+    .food_production{
+        margin-top:500px;
+        
+        
+    }
+    hr{
+        color:black;
+        margin-bottom:50px;
+    }
+    .theory{
+        margin-top:80px;
+    }
+    h2{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 35px;
+        color:rgb(31, 70, 43);
+        text-align:center;
+        text-decoration: underline;
+
+    }
+    h1{
+        padding-top:50px;
+    }
+    #one{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:24px;
+        padding-left:5%;
+        color:white;
+    }
+    #one1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:18px;
+        padding-left:10%;
+        text-decoration: underline;
+        color:white;
+        line-height: 19px;
+    }
+    #two{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:15px;
+        padding-left:10%;
+        color:floralwhite;
+        
+    }
+    #two2{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:15px;
+        padding-left:15%;
+        color:floralwhite;
+
+    }
+    
+    #three{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:rgb(19, 19, 104);
+        font-size:20px;
+        padding-left:5%;
+        text-decoration:underline;
+        font-weight:bold;
+        color:white;
+    }
+    #foodpro{
+        height:300px;
+        width:600px;
+        display:flex;
+        flex-direction: row;
+        margin-left:50%;
+        padding-top: 30px;
+        border-radius:20px 20px 20px 20px;
+
+        
+    }
+    #four{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-left:5%;
+        color:white;
+    }
+    
+    
+    .food_production{
+        background-image:linear-gradient(rgba(200, 247, 153,0.3),rgba(113, 163, 113, 0.3)),url("https://img.foodlogistics.com/files/base/acbm/fl/image/2020/02/Stock_growing_plant.5e55e6224223e.png?auto=format%2Ccompress&fit=crop&h=288&q=70&w=512");
+        background-repeat:no-repeat;
+        background-size: cover;
+        
+
+    }
+    .slicing{
+        height:300px;
+        width:300px;
+        padding-top:30px;
+        display:inline;
+    }
+    .video{
+        display:inline;
+    }
+    li{
+        width:50%;
+        
+        
+    }
+    .tin,.char,.panch,.chen,.saat,.aat,.nau,.das{
+        background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+        border-radius:50px;
+        padding:20px 50px;
+        margin:10px 50px;
+        
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    .video{
+        display:flex;
+        flex-direction: row;
+        
+
+    }
+    #five{
+        color:floralwhite;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:15px;
+        padding-right:50%;
+    }
+    .clip iframe {
+        position: absolute;
+    
+        width: 100vw;
+        height: 117vh;
+        top:0;
+        bottom:0;
+        
+    }
+    .clip{
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        top:0;
+        bottom:0;
+    }
+    .prodcompany{
+        
+        color:rgb(0, 0, 0);
+        background-color:rgba(232, 253, 189, 0.712);
+    }
+    #myVideo{
+        height:500px;
+        width:650px;
+        
+        
+    }
+    /*.nau{
+        background-color:white;
+        color:black;*/
+        
+    
+    /*.logo{
+        height:100px;
+        width:100px;
+        border-radius:50px;*/
+
+    
+    .footer{
+        height:60px;
+        text-align:center;
+        background-color:rgb(160, 240, 160);
+        
+    }
+    header{
+        text-align:center;
+        padding:20px;
+        background-color:#f4f4f4;
+    }
+    footer{
+        text-align:center;
+        padding:20px;
+        background-color:#485c5f;
+        color:#fff;
+    }
+    
+        
+
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-heading">EVO_ARG-Food Resource Production</h1>
+    </header>
+    <section class="header">
+        
+        <h1>Food Production</h1>
+    
+    <div class="slide">
+    <section class="slideshow">
+        <div class="container1">
+            <div class="wrapper1">
+                <img src="https://1cold.com/wp-content/uploads/2019/05/food-technology-709x300.jpg" alt="foodtech">
+                
+                
+                
+              
+
+
+
+            </div>
+            </div>
+        </section>
+            <section class="slideshow">
+            <div class="container2">
+            <div class="wrapper2">
+                <img src="https://connectorsupplier.com/wp-content/uploads/pei-vertical-farming-LEAD.jpg">
+            </div>
+            </div>
+        
+            
+        
+    </section></div>
+    </section>
+    
+    <section class="food_production">
+        <h2><hr>Food Production</h2>
+        
+        
+        <div class="theory">
+        <p id="one">What is Food Production?</p>
+        <br><br>     
+        <p id="two">           Food production is the process of growing, harvesting, processing, and distributing food to consumers.
+                Food production is considered as the process of transforming raw materials into edible food products. This can be done directly at home or commercially at industries. The process of food production involves various stages and each stage is important. These stages start with the basic steps like cleaning, processing, segregation and ends with packing and marketing. In this article we are going to discuss food production in depth.
+            </p>
+            <br><br>
+        </div>
+            <br><br>
+            <div class="do">
+            <p id="one">Points regarding content:-
+                <br><br>
+                <ol id="two">
+                    <li>Food production and Process of food production</li>
+                    <li>Categories of food production</li>
+                    <li>Methods of food production</li>
+                    <li>Food systems</li>
+                    <li>Advantages of food production</li>
+                    <li>Disadvantages of food production</li>
+                    
+
+
+
+
+
+
+
+                </ol>
+            </p>
+            <br><br>
+        </div>
+            <br><br>
+            <div class="tin">
+            <div><p id="three">1. Food production and it's Process</p>
+            
+            <br><br>
+            <div class="flex">
+            <p id="two">Most of the products that we consume are sourced from plants and animals. The products consist of grains, cereals, pulses, honey, milk, fruits and vegetables, eggs, meat, honey, and many more. We, humans, are very much dependent on plants and animals for our existence. They provide us with a variety of food products that are used in our day-to-day life consumption. The plants and animals as a whole are responsible for the supply of nearly 90 % of the global energy. </p>
+        <img id="foodpro" src="https://indianlocalfoods.com/wp-content/uploads/2023/04/Food-Production-Chain-2-1024x538.jpg" alt="production of food">
+        <br><br></div>
+    </div><br><br>
+</div>
+<br><br>
+            <div class="char">
+            <p id="three">2. Categories of Food Production</p>
+            <br>
+            <div class="flex">
+            <p id="four">Food production is a vast field and includes different categories. Some of them are listed below:
+                <br><br>
+                <ol id="two">
+                    <li>Cultivating
+    
+                    </li>
+                    <li>Harvesting</li>
+                    <li>Crop management</li>
+                    <li>Preserving</li>
+                    <li>Fermenting</li>
+                    <li>Crop production</li>
+                    <li>Pickling</li>
+                    <li>Cooking at restaurants</li>
+                    <li>Production of drinks</li>
+                    <li>Broiling</li>
+                    <li>Grilling</li>
+                    <li>Baking</li>
+                    <li>Stewing</li>
+                    <li>Braising</li>
+
+
+
+
+
+
+
+
+
+
+
+
+                </ol>
+            </p></div>
+            <br><br></div>
+            <br><br>
+            <div class="panch">
+            <p id="three">3. Methods of Food Production</p>
+            <br><br>
+            <p id="four">In the food industry various methods are used for the production of food. Some of these methods can be used at home but some are complicated and can be used only in the food processing industries. There are several forms of food production that are used today. Food production and food processing are interrelated and hence the steps show overlapping. Food processing refers to the processes that change the raw materials into products which can either be consumed directly or need to undergo some process before eating. Food production refers to processes of making ready to eat food at home or in industries. Cooking is the common term used to represent food production.</p>
+            <div class="video">
+                
+                <p id="two">
+                    <ol id="five" type="a" class="photo">
+                        
+                        <li>Slicing</li>
+                        <li>Grinding</li>
+                        <li>Mixing</li>
+                        <li>Marinating</li>
+                        <li>Fermanting</li>
+                        <li>Curing</li>
+                        <li>Boiling</li>
+                        <li>Emulsifying</li>
+                        <li>Grilling</li>
+                        <li>Frying</li>
+                        <li>Steaming</li>
+                        <li>Pasteurisation</li>
+                    
+                       
+
+
+
+
+
+
+
+
+
+                        
+                        
+
+
+
+                    
+                    </ol>
+                    <div class="fl">
+                    <img class="slicing" src="https://th.bing.com/th/id/OIG.bKuQgXlkt8s8IQsrN4uO?pid=ImgGn"></div>
+                
+                </p>
+            </div>
+            </div>
+            <br><br>
+            <div class="chen">
+                <p id="three">4. Food System
+
+                </p>
+                <br><br>
+                <p id="four">The food system refers to the food chain which begins with raw materials and ends with the consumption of final food products. It includes the following stages:
+                    </p><br><br>
+                    <p id="one1">A. Food production</p>
+                    <br>
+                    <p id="two2">Food production refers to processes of making ready to eat food at home or in industries. It includes agriculture, farming etc.</p>
+                    <br>
+                    <p id="one1">B. Distribution and aggregation</p>
+                    <br>
+                    <p id="two2">It involves the distribution of various types of food items</p>
+                    <br>
+                    <p id="one1">C. Food processing</p>
+                    <br>
+                    <p id="two2">It refers to the processes that change the raw materials into products which can either be consumed directly or need to undergo some process before eating.</p>
+                    <br>
+                    <p id="one1">D. Marketing</p>
+                    <br>
+                    <p id="two2">It involves the selling of the processed food items. This needs proper advertisements.</p>
+                    <br>
+                    <p id="one1">E. Purchasing</p>
+                    <br>
+                    <p id="two2">It involves the buying of processed food items by the customers from shops, restaurants, hotels etc.</p>
+                    <br>
+                    <p id="one1">F. Consumption</p>
+                    <br>
+                    <p id="two2">It is the utilisation of the food by the consumer.</p>
+                    <br>
+                    <p id="one1">G. Waste recovery</p>
+                    <br>
+                    <p id="two2">It involves the management of the wastes from the food production, processing, marketing and consumption levels. This step ensures that the output is maximum with minimum input and wastage. This can be done by proper food production management.</p>
+                    <br>
+                    <p id="one1">H. Food production management</p>
+                    <br>
+                    <p id="two2">It is the process of optimising and managing the food production. It involves the development and implementation of various plans to manage and control different levels of the food system. It ensures that all the parts involved are working in a coordinated manner and include the following steps:
+                        <div class="video">
+                        <ol id="two2" type="I">
+                            <br><br>
+                            <li>Purchasing of raw ingredients and materials.</li>
+                            <li>Hiring the required professionals. Examples include chefs, waiters etc.</li>
+                            <li>Creating proper budgets.</li>
+                            <li>Ensuring the quality of food served.</li>
+                            <li>Maintaining the infrastructure.</li>
+                            <li>Following protocols.</li>
+                            <li>Following cleanliness.</li>
+                            <li>Reducing wastage generation.</li>
+                            <li>Proper disposal of wastes.</li>
+                            <li>Maintaining the operational records.</li>
+                            <li>Proper handling of customers.</li>
+                            <li>Managing the inventory (the process of ordering, using, storing, and selling the inventory)</li>
+
+
+
+
+
+
+
+
+
+
+
+                        </ol>
+                        <img src="https://www.food.systems/wp-content/uploads/2016/11/food_diagram-01-1.png" alt="food syatem">
+                    </div>
+                    </p>
+                    
+                </p>
+            </div>
+            <br><br>
+            <div class="saat">
+                <p id="three">5. Advantages of Food Production</p>
+                <p id="four">The following are somes of the advantages of food production:</p>
+                <p id="two">
+                    <ol id="two" type="A">
+                        <li>Food production is a vast industry which gives lots of opportunities.</li>
+                        <li>It gives employment to a large group of people like chefs, local vendors, waiters and farmers.</li>
+                        <li>Industries include restaurants, local food markets, grocery stores, online food delivery apps, agriculture etc.</li>
+                        <li>It is a source of income for the population, especially for home makers.</li>
+                        <li>It increases exports and helps in maintaining foreign relations.</li>
+                        <li>It helps in proper distribution of food.</li>
+                        <li>It makes the food available to all populations.</li>
+                        <li>The food production industry plays a significant role in the economy. A huge portion of the economy in countries like India and China comes from agriculture.</li>
+
+                    </ol>
+                    <br>
+                    <br>
+                </p>
+            </div>
+<br><br>
+<div class="aat">
+    <p id="three">5. Disadvantages of Food Production</p>
+    <p id="four">The following are somes of the disadvantages of food production:</p>
+    <p id="two">
+        <ol id="two" type="A">
+            <li>It causes climate changes. For example, stubble burning causes pollution in Delhi.</li>
+            <li>It causes water and soil pollution especially by the use of chemical fertilisers, preservatives, weedicides etc.</li>
+            <li>It causes the extinction of many species.</li>
+            <li>It also causes greenhouse gas emissions and global warming.</li>
+        </ol>
+        <br><br>
+    </p>
+</div>
+<br><br>
+    
+        
+          <div class="nau">
+        <p id="one">Best Food Production Company in the World:-</p>
+        <p id="four">(You can click on the text to know more)</p>
+        <p id="two">
+            <ol id="two">
+                <li><a href="https://www.nestle.in/">Nestle SA</a></li>
+                <li><a href="https://www.mondelezinternational.com/">Mondelez International Inc</a></li>
+                <li><a href="https://www.thehersheycompany.com/en_us/home.html">The Hershey Co</a></li>
+                <li><a href="https://www.pepsico.com/">Pepsico.</a></li>
+                <li><a href="https://www.tysonfoods.com/">Tyson Foods</a></li>
+                <br><br><br>   
+            </ol>
+        </p></div>
+        <div class="das">
+            <p id="one">NEOM</p>
+            <p id="four">NEOM aims to redefine the ways we produce, distribute and consume food. Using the desert as a testbed, we’re pioneering more efficient solutions to food production in water-scarce environments, developing scalable models for the rest of the world as climate change accelerates and arable land retreats. We’re creating a community of dreamers and doers to deliver food-security solutions that expand access to high-quality nutrition and empower consumers to live healthier lives. NEOM Food represents a bold new future for food, built on sustainability and innovation.</p>
+        <div class="clip"><iframe id="clip" width="100%" height="600px" src="https://www.youtube.com/embed/QSu5GjdCC3o?rel=0&autoplay=infinite"  frameborder="0"  allowfullscreen></iframe></div>
+    </div><br><br>
+    
+    <br><br>
+    </div>
+    <br><br>
+    
+    </section>
+    <footer>
+        <p>&copy;2023EVO_ARG-Food Resource Production</p>
+    </footer>
+</body>
+</html>
